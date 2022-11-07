@@ -9,6 +9,7 @@ const SecondsCounter  = (props) => {
 	return (
 		<div className="conatiner">
 			<div className="counter">
+			<p><i class="far fa-clock"></i></p>	
 			<p>{props.numSix}</p>
 			<p>{props.numFive}</p>
 			<p>{props.numFour}</p>
